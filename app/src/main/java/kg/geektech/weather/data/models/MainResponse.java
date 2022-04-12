@@ -172,4 +172,7 @@ public class MainResponse {
 
     private class MainConverter {
     }
+
+    private class CoordConverter {
+    }
 }
