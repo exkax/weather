@@ -1,7 +1,7 @@
 package kg.geektech.weather.data.models;
 
-import android.support.wearable.watchface.decompositionface.CoordConverter;
 
+import androidx.room.Entity;
 import androidx.room.TypeConverters;
 
 import com.google.gson.annotations.Expose;
@@ -9,6 +9,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+@Entity
 public class MainResponse {
 
     @SerializedName("coord")
